@@ -20,3 +20,8 @@ I attacked it by first suggested solution manually following the steps below
 - Set trigger using event Bridge to run lambda function every one hour 
 - Get csv files from s3 bucket, source folder 
 -Put it in S3 bucket, destination folder and zip the file 
+
+
+Room for improvement 
+- use Terraform to create aws resources 
+- have lambda code bringing down n sorting through source s3 bucket to pick files that need to be move to destination bucket
